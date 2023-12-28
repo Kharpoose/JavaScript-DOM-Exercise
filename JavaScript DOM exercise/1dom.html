@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 1</title>
+</head>
+
+<body>
+
+    <button class="js-example">
+        Example
+    </button>
+
+    <button class="js-example-2">
+        Example 2
+    </button>
+
+    <p></p>
+    
+    <button onclick="
+        document.querySelector('.js-result').innerHTML = 'You Chose: Heads'
+    ">
+        heads
+    </button>
+
+    <button onclick="
+        document.querySelector('.js-result').innerHTML = 'You Chose: Tails'
+    ">
+        tails
+    </button>
+
+    <p class="js-result"></p>
+
+    <script>
+        
+        console.log(document.querySelector('button'));
+        
+        document.querySelector('.js-example-2').innerHTML = 'Example 3'
+
+    </script>
+</body>
+
+</html>
